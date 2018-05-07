@@ -1,0 +1,1159 @@
+/*Reset CSS*/
+html, body, div, h1, h2{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+@font-face {
+    font-family: 'rsuregular';
+    src: url('fonts/rsu_regular-webfont.eot');
+    src: url('fonts/rsu_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/rsu_regular-webfont.woff2') format('woff2'),
+         url('fonts/rsu_regular-webfont.woff') format('woff'),
+         url('fonts/rsu_regular-webfont.ttf') format('truetype'),
+         url('fonts/rsu_regular-webfont.svg#rsuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'rsulight';
+    src: url('fonts/rsu_lightrsu-light.eot');
+    src: url('fonts/rsu_lightrsu-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/rsu_lightrsu-light.woff2') format('woff2'),
+         url('fonts/rsu_lightrsu-light.woff') format('woff'),
+         url('fonts/rsu_lightrsu-light.ttf') format('truetype'),
+         url('fonts/rsu_lightrsu-light.svg#rsulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'rsulight';
+    src: url('rsu_lightrsu-light.eot');
+    src: url('rsu_lightrsu-light.eot?#iefix') format('embedded-opentype'),
+         url('rsu_lightrsu-light.woff2') format('woff2'),
+         url('rsu_lightrsu-light.woff') format('woff'),
+         url('rsu_lightrsu-light.ttf') format('truetype'),
+         url('rsu_lightrsu-light.svg#rsulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'queen_of_clubsregular';
+    src: url('fonts/queen_of_clubs-webfont.eot');
+    src: url('fonts/queen_of_clubs-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/queen_of_clubs-webfont.woff2') format('woff2'),
+         url('fonts/queen_of_clubs-webfont.woff') format('woff'),
+         url('fonts/queen_of_clubs-webfont.ttf') format('truetype'),
+         url('fonts/queen_of_clubs-webfont.svg#queen_of_clubsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+a{
+  text-decoration: none;
+}
+body {
+	width: 100%;
+	height: 3970px;
+	background-image: url("images/bg01.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+.logo-menu {
+	width: 1020px;
+	height: 100px;	
+	position: relative;
+}
+.mearch {
+	width: 172px;
+	height: 70px;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 100px;
+	margin-top: 30px;
+	position: relative;
+}
+nav {
+  width: 960px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.box-menu a{
+    font-family: 'queen_of_clubsregular';
+    margin-left: 75px;
+    margin-top: 20x;
+    font-size: 30px;
+      text-decoration: none;
+      color: #000;
+      text-align: center;
+}
+.box-menu ul {
+  list-style: none;
+} 
+.box-menu ul li{
+  float: left;
+  margin-left: 45px;
+}
+.box-menu a {
+  margin-top: -33px;
+  margin-left: 95px;
+}
+.box-menu h1 {
+      margin-top: 5px;
+    margin-left: 68px;
+}
+.box-menu ul li h1:hover {
+    color: #999966;
+    cursor: pointer;
+    opacity: .5;
+}
+.box-menu h2 {
+    margin-top: 38px;
+    margin-left: -53px;
+}
+.box-menu ul li h2:hover {
+    color: #999966;
+    cursor: pointer;
+    opacity: .5;
+}
+.box-menu h3 {
+    font-size: 30px;
+    margin-top: -98px;
+    margin-left: 630px;
+    float: left;
+}
+.box-menu ul li h3:hover {
+    color: #999966;
+    cursor: pointer;
+    opacity: .5;
+}
+.box-menu h4 {
+     margin-top: -99px;
+    margin-left: 472px;
+    float: left;
+}
+.box-menu ul li h4:hover {
+    color: #999966;
+    cursor: pointer;
+    opacity: .5;
+    }
+.box-menu h5 {
+     margin-top: -163px;
+    margin-left: 770px;
+    float: left;
+    font-size: 30px;
+}
+.box-menu ul li h5:hover {
+    color: #999966;
+    cursor: pointer;
+    opacity: .5;
+}
+.aboutus-slide {
+    width: 1020px;
+    height: 249px;
+    margin-top: 25px;
+    margin-left: 85px; 
+    position: relative;
+    float: left;
+}
+.information {
+    width: 960px;
+    height: 350px;
+    /*background-color: red;*/
+    text-align: center; 
+    margin-top: 807px;
+    margin-left: 120px;
+}
+.information h1 {
+    font-family: 'rsulight';
+    font-size: 22px;
+    color: #000;
+    margin: 10px 20px;
+}
+.information h2 {
+    font-family: 'rsulight';
+    font-size: 30px;
+    color: #000;
+    margin: 30px 20px;
+}
+.ourteam {
+    width: 1200px;
+    height: 1650px;
+    float: center;
+    position: relative;
+    margin: 160px 0px;
+}
+.headoutteam {
+    width: 1200px;
+    height: 120px;
+}
+.headoutteam p {
+    font-family: 'queen_of_clubsregular'; 
+    font-size: 80px;
+    color: #000;
+    text-align: right;
+    margin-right: 130px;
+}
+.people-in-our-team {
+    width: 1200px;
+    height: 1430px;
+}
+/*person 1*/
+.person-1 {
+    width: 370px;
+    height: 476px;
+    background-color: yellow;
+    float: left;
+    margin-left: 80px;
+    margin-top: 0px;
+    margin-right: -5px;
+}
+.person-1 {
+  font-family: 'queen_of_clubsregular', 'rsulight';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+.person-1 *,
+.person-1:before,
+.person-1:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.person-1 img {
+  /*max-width: 100%;*/
+  backface-visibility: hidden;
+  /*vertical-align: top;*/
+}
+
+.person-1:before,
+.person-1:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.person-1:before {
+  width: 0;
+  height: 1px;
+}
+
+.person-1:after {
+  height: 0;
+  width: 1px;
+}
+
+.person-1 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.person-1 h3,
+.person-1 h4 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.person-1 h4 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.person-1 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.person-1:hover img,
+.person-1.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.person-1:hover:before,
+.person-1.hover:before,
+.person-1:hover:after,
+.person-1.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.person-1:hover:before,
+.person-1.hover:before {
+  width: 40px;
+}
+
+.person-1:hover:after,
+.person-1.hover:after {
+  height: 40px;
+}
+
+.person-1:hover h3,
+.person-1.hover h3,
+.person-1:hover h4,
+.person-1.hover h4 {
+  opacity: 1;
+}
+
+.person-1:hover h3,
+.person-1.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.person-1:hover h4,
+.person-1.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+/*person 2*/
+.person-2 {
+    width: 370px;
+    height: 476px;
+    background-color: blue;
+    float: left;
+}
+.person-2 {
+  font-family: 'queen_of_clubsregular', 'rsulight';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+  margin-left: -4px;
+ margin-top: 0px;
+}
+.person-2 *,
+.person-2:before,
+.person-2:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.person-2 img {
+  backface-visibility: hidden;
+}
+
+.person-2:before,
+.person-2:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.person-2:before {
+  width: 0;
+  height: 1px;
+}
+
+.person-2:after {
+  height: 0;
+  width: 1px;
+}
+
+.person-2 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.person-2 h3,
+.person-2 h4 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.person-2 h4 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.person-2 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.person-2:hover img,
+.person-2.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.person-2:hover:before,
+.person-2.hover:before,
+.person-2:hover:after,
+.person-2.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.person-2:hover:before,
+.person-2.hover:before {
+  width: 40px;
+}
+
+.person-2:hover:after,
+.person-2.hover:after {
+  height: 40px;
+}
+
+.person-2:hover h3,
+.person-2.hover h3,
+.person-2:hover h4,
+.person-2.hover h4 {
+  opacity: 1;
+}
+
+.person-2:hover h3,
+.person-2.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.person-2:hover h4,
+.person-2.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+.plain-box {
+    width: 300px;
+    height: 476px;
+    background-color: #6a4b4b;
+    float: left;
+    margin-left: -43px;
+    margin-top: 0px;
+}
+.plain-box p {
+    font-family: 'rsulight';
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+    margin-top: 180px;
+}
+.plain-box-1 {
+    width: 294px;
+    height: 477px;
+    background-color: #6a4b4b;
+    float: left;
+    margin-left: 80px;
+    margin-top: -16px;
+}
+.plain-box-1 p {
+    font-family: 'queen_of_clubsregular';
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+/*person 3*/
+.person-3 {
+    width: 370px;
+    height: 476px;
+    background-color: yellow;
+    float: left;
+    margin-left: 0px;
+    margin-top: -16px;
+    margin-right: -5px;
+}
+.person-3 {
+  font-family: 'queen_of_clubsregular', 'rsulight';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+.person-3 *,
+.person-3:before,
+.person-3:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.person-3 img {
+  /*max-width: 100%;*/
+  backface-visibility: hidden;
+  /*vertical-align: top;*/
+}
+
+.person-3:before,
+.person-3:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.person-3:before {
+  width: 0;
+  height: 1px;
+}
+
+.person-3:after {
+  height: 0;
+  width: 1px;
+}
+
+.person-3 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.person-3 h3,
+.person-3 h4 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.person-3 h4 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.person-3 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.person-3:hover img,
+.person-3.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.person-3:hover:before,
+.person-3.hover:before,
+.person-3:hover:after,
+.person-3.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.person-3:hover:before,
+.person-3.hover:before {
+  width: 40px;
+}
+
+.person-3:hover:after,
+.person-3.hover:after {
+  height: 40px;
+}
+
+.person-3:hover h3,
+.person-3.hover h3,
+.person-3:hover h4,
+.person-3.hover h4 {
+  opacity: 1;
+}
+
+.person-3:hover h3,
+.person-3.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.person-3:hover h4,
+.person-3.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+/*person 4*/
+.person-4 {
+    width: 370px;
+    height: 476px;
+    background-color: yellow;
+    float: left;
+    margin-left: 0px;
+    margin-top: -16px;
+    margin-right: -5px;
+}
+.person-4 {
+  font-family: 'queen_of_clubsregular', 'rsulight';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+.person-4 *,
+.person-4:before,
+.person-4:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.person-4 img {
+  /*max-width: 100%;*/
+  backface-visibility: hidden;
+  /*vertical-align: top;*/
+}
+
+.person-4:before,
+.person-4:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.person-4:before {
+  width: 0;
+  height: 1px;
+}
+
+.person-4:after {
+  height: 0;
+  width: 1px;
+}
+
+.person-4 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.person-4 h3,
+.person-4 h4 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.person-4 h4 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.person-4 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.person-4:hover img,
+.person-4.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.person-4:hover:before,
+.person-4.hover:before,
+.person-4:hover:after,
+.person-4.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.person-4:hover:before,
+.person-4.hover:before {
+  width: 40px;
+}
+
+.person-4:hover:after,
+.person-4.hover:after {
+  height: 40px;
+}
+
+.person-4:hover h3,
+.person-4.hover h3,
+.person-4:hover h4,
+.person-4.hover h4 {
+  opacity: 1;
+}
+
+.person-4:hover h3,
+.person-4.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.person-4:hover h4,
+.person-4.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+.plain-box-3 {
+    width: 300px;
+    height: 476px;
+    background-color: #6a4b4b;
+    float: right;
+    margin-right: 91px;
+    margin-top: -16px;
+}
+.plain-box-3 p {
+    font-family: 'queen_of_clubsregular';
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    margin-top: 150px;
+}
+/*person 5*/
+.person-5 {
+    width: 370px;
+    height: 476px;
+    background-color: yellow;
+    float: right;
+    margin-right: 0px;
+    margin-top: -16px;
+}
+.person-5 {
+  font-family: 'queen_of_clubsregular', 'rsulight';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+.person-5 *,
+.person-5:before,
+.person-5:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.person-5 img {
+  /*max-width: 100%;*/
+  backface-visibility: hidden;
+  /*vertical-align: top;*/
+}
+
+.person-5:before,
+.person-5:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.person-5:before {
+  width: 0;
+  height: 1px;
+}
+
+.person-5:after {
+  height: 0;
+  width: 1px;
+}
+
+.person-5 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.person-5 h3,
+.person-5 h4 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.person-5 h4 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.person-5 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.person-5:hover img,
+.person-5.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.person-5:hover:before,
+.person-5.hover:before,
+.person-5:hover:after,
+.person-5.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.person-5:hover:before,
+.person-5.hover:before {
+  width: 40px;
+}
+
+.person-5:hover:after,
+.person-5.hover:after {
+  height: 40px;
+}
+
+.person-5:hover h3,
+.person-5.hover h3,
+.person-5:hover h4,
+.person-5.hover h4 {
+  opacity: 1;
+}
+
+.person-5:hover h3,
+.person-5.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.person-5:hover h4,
+.person-5.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+/*person 6*/
+.person-6 {
+    width: 360px;
+    height: 476px;
+    background-color: yellow;
+    float: left;
+    margin-left: 80px;
+    margin-top: -492px;
+}
+.person-6 {
+  font-family: 'queen_of_clubsregular', 'rsulight';
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+  background: #000;
+}
+.person-6 *,
+.person-6:before,
+.person-6:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.person-6 img {
+  /*max-width: 100%;*/
+  backface-visibility: hidden;
+  /*vertical-align: top;*/
+}
+
+.person-6:before,
+.person-6:after {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  content: '';
+  background-color: #fff;
+  z-index: 1;
+  opacity: 0;
+}
+
+.person-6:before {
+  width: 0;
+  height: 1px;
+}
+
+.person-6:after {
+  height: 0;
+  width: 1px;
+}
+
+.person-6 figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.person-6 h3,
+.person-6 h4 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: normal;
+  opacity: 0;
+}
+
+.person-6 h4 {
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.person-6 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.person-6:hover img,
+.person-6.hover img {
+  zoom: 1;
+  filter: alpha(opacity=20);
+  -webkit-opacity: 0.2;
+  opacity: 0.2;
+}
+
+.person-6:hover:before,
+.person-6.hover:before,
+.person-6:hover:after,
+.person-6.hover:after {
+  opacity: 1;
+  -webkit-transition-delay: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.person-6:hover:before,
+.person-6.hover:before {
+  width: 40px;
+}
+
+.person-6:hover:after,
+.person-6.hover:after {
+  height: 40px;
+}
+
+.person-6:hover h3,
+.person-6.hover h3,
+.person-6:hover h4,
+.person-6.hover h4 {
+  opacity: 1;
+}
+
+.person-6:hover h3,
+.person-6.hover h3 {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.person-6:hover h4,
+.person-6.hover h4 {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+.how-we-work {
+    width: 1020px;
+    height: 620px;
+   /* background-color: yellow;*/
+    float: left;
+    margin-top: -200px;
+    margin-left: 85px;
+}
+.how-we-work p {
+    font-family: 'rsuregular';
+    font-size: 48px;
+    color: #000;
+    text-align: right;
+    margin-right: 30px;
+}
+.some-vid {
+    width: 1020px;
+    height: 750px;
+    margin-top: -10px;
+}
+.some-vid h1 {
+    font-family: 'rsulight';
+    font-size: 56px;
+    float: right;
+}
+#vid {
+    float: left;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+footer {
+    width: 1200px;
+    height: 380px;
+    background-color: #362f2d;
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+.follow-nous {
+   width: 140px;
+    height: 100px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 971px;
+    position: relative;
+}
+.follow-nous h1 {
+    font-family: 'queen_of_clubsregular';
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    word-spacing: 10px;
+    padding-bottom: 15px;
+}
+.fa {
+    font-size: 35px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.fa-facebook-square:before {
+    content: "\f082";
+    float: left;
+    margin-left: 30px;
+    word-spacing: 5px;
+}
+.fa-instagram:before {
+    content: "\f16d";
+    margin-left: 15px;
+}
+.fa-twitter-square:before {
+    content: "\f081";
+    margin-left: 15px;
+}
+.subscribe-us {
+   width: 360px;
+    height: 100px;
+    float: left;
+    margin-top: -90px;
+    margin-left: 400px;
+}
+.subscribe-us h1 {
+    font-family: 'queen_of_clubsregular';
+    font-size: 36px;
+    float: left;
+    margin-left: 15px;
+    color: #fff;
+}
+.subscribe-us h2 {
+    font-family: 'rsulight';
+    font-size: 20px;
+    float: left;
+    margin-left: 10px;
+    color: #fff;
+    margin-top: 13px;
+}
+input {
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 220px;
+    height: 25px;
+    cursor: text;
+}
+.send {
+    width: 50px;
+    height: 31px;
+    background-color: #c69c6d;
+    float: left;
+    margin-top: -31px;
+    margin-left: 254px;
+}
+.send h1 {
+    font-family: 'queen_of_clubsregular';
+    font-size: 22px;
+    float: left;
+    letter-spacing: 2px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.address {
+    width: 280px;
+    height: 226px;
+    float: left;
+    margin-top: -95px;
+    margin-left: 470px;
+}
+.address h1 {
+    font-family: 'rsulight';
+    font-size: 18px;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 20px;
+}

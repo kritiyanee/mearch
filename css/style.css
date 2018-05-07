@@ -1,0 +1,1014 @@
+@charset "utf-8";
+/*Reset CSS*/
+html, body, div, h1, h2{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+@font-face {
+    font-family: 'rsuregular';
+    src: url('fonts/rsu_regular-webfont.eot');
+    src: url('fonts/rsu_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/rsu_regular-webfont.woff2') format('woff2'),
+         url('fonts/rsu_regular-webfont.woff') format('woff'),
+         url('fonts/rsu_regular-webfont.ttf') format('truetype'),
+         url('fonts/rsu_regular-webfont.svg#rsuregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'rsulight';
+    src: url('fonts/rsu_lightrsu-light.eot');
+    src: url('fonts/rsu_lightrsu-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/rsu_lightrsu-light.woff2') format('woff2'),
+         url('fonts/rsu_lightrsu-light.woff') format('woff'),
+         url('fonts/rsu_lightrsu-light.ttf') format('truetype'),
+         url('fonts/rsu_lightrsu-light.svg#rsulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'rsulight';
+    src: url('rsu_lightrsu-light.eot');
+    src: url('rsu_lightrsu-light.eot?#iefix') format('embedded-opentype'),
+         url('rsu_lightrsu-light.woff2') format('woff2'),
+         url('rsu_lightrsu-light.woff') format('woff'),
+         url('rsu_lightrsu-light.ttf') format('truetype'),
+         url('rsu_lightrsu-light.svg#rsulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'queen_of_clubsregular';
+    src: url('fonts/queen_of_clubs-webfont.eot');
+    src: url('fonts/queen_of_clubs-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/queen_of_clubs-webfont.woff2') format('woff2'),
+         url('fonts/queen_of_clubs-webfont.woff') format('woff'),
+         url('fonts/queen_of_clubs-webfont.ttf') format('truetype'),
+         url('fonts/queen_of_clubs-webfont.svg#queen_of_clubsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	width: 100%;
+	height: 100%;
+	background-image: url("images/bg00.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: cover;
+
+}
+#wrapper {
+	width: 1020px;
+	margin: 0 auto;
+}
+.logo-menu {
+	background-image: url(images/logo.png);
+	width: 172px;
+	height: 70px;
+	background-repeat: no-repeat;
+	float: left;
+	margin-left: 100px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+
+}
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  font-family: 'queen_of_clubsregular';
+}
+.box-menu-all {
+	width: 960px;
+	height: 50px;
+	margin-left: 77px;
+}
+nav {
+	width: 960px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.box-menu a{
+	  margin-left: 75px;
+	  margin-top: 20px;
+      text-decoration: none;
+      color: #000;
+      text-align: center;
+}
+.box-menu ul {
+	list-style: none;
+} 
+.box-menu ul li{
+	float: left;
+	margin-left: 45px;
+}
+.box-menu h1 {
+	font-family: 'queen_of_clubsregular';
+	font-size: 28px;
+	color: #000;
+	float: left;
+	margin-top: 5px;
+    margin-left: 200px;
+}
+.box-menu ul li h1:hover {
+    color: #4f4f4f;
+    cursor: pointer;
+    opacity: .5;
+}
+.box-menu h2 {
+	font-family: 'queen_of_clubsregular';
+	font-size: 28px;
+	color: #000;
+	float: left;
+	margin-top: 5px;
+    margin-left: -75px;
+}
+.box-menu ul li h2:hover {
+    color: #4f4f4f;
+    cursor: pointer;
+    opacity: .5;
+}
+.box-menu h3 {
+    font-family: 'queen_of_clubsregular';
+	font-size: 28px;
+	color: #000;
+	float: left;
+	margin-top: 5px;
+    margin-left: -75px;	
+}
+.box-menu ul li h3:hover {
+    color: #4f4f4f;
+    cursor: pointer;
+    opacity: .5;
+}
+.box-menu h4 {
+	font-family: 'queen_of_clubsregular';
+	font-size: 28px;
+	color: #000;
+	float: left;
+    margin-top: 5px;
+    margin-left: -105px;
+}
+.box-menu ul li h4:hover {
+    color: #4f4f4f;
+    cursor: pointer;
+    opacity: .5;
+    }
+.box-menu h5 {
+	font-family: 'queen_of_clubsregular';
+	font-size: 28px;
+	color: #000;
+	float: left;
+    margin-top: -51px;
+    margin-left: 688px;
+}
+.box-menu ul li h5:hover {
+    color: #4f4f4f;
+    cursor: pointer;
+    opacity: .5;
+}
+.container {
+	background-color: none;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.container span {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+}
+
+.container ul, .container li {
+	/*padding: 0;*/
+	margin: 50px 10px;
+	list-style: none;
+}
+
+.container li {
+	display: none;
+}
+
+.container li.active {
+	display: inline;
+}
+.social-beside {
+	width: 40px;
+	height: 80px;
+	float: right;
+	text-align: center;
+	margin-top: -70px;
+}
+.fa {
+	font-size: 22px;
+	float: right;
+}
+.fa-facebook-square {
+	text-align: center;
+	float: left;
+	margin-top: 3px;
+	margin-left: 15px;
+}
+.fa-instagram {
+	margin-top: 8px;
+	margin-left: 8px;
+		color: #000;
+}
+.fa-twitter-square {
+	margin-top: 8px;
+	margin-left: 8px;
+		color: #000;
+}
+.about-me-arch {
+	width: 1020px;
+	height: 800px;
+	float: left;
+}
+.about-me-arch h1 {
+	font-family: 'queen_of_clubsregular';
+	font-size: 68px;
+	color: #000;
+	float: left;
+	position: relative;
+	text-align: center;
+	margin: 150px 0 0 14%;
+}
+.photo-show {
+	width: 650px;
+	height: 407px;
+	background-image: url(images/photo_01.jpg);
+	margin: 40px 0 0 10%;
+    position: relative;
+    float: left;
+}
+.about-me-arch h2 {
+	font-family: 'rsuregular';
+	font-size: 25px;
+	color: #000;
+	float: left;
+	position: relative;
+	margin: 40px 0 0 20%;
+}
+.photo-slide {
+	width: 841px;
+	height: 516px;
+	background-color: red;
+	float: left;
+	margin: -50px 0 0 3.75%;
+}
+.our-project {
+	width: 1020px;
+	height: 100px;
+	position: relative;
+	margin-top: 16px;
+	float: left;
+}
+.our-project h1 {
+	font-family: 'rsuregular';
+	font-size: 65px;
+	color: #000;
+	margin: 5% 0 0 16% ;
+	float: left;
+}
+.detail-01 {
+	width: 1020px;
+	height: 820px;
+	margin: 100px 0 0 3.75%;
+	position: relative;
+	float: left;
+}
+.topic01 {
+	width: 970px;
+	height: 171px;
+	float: right;
+}
+.detail-01 h1 {
+	font-family: 'rsuregular';
+	font-size: 60px;
+	float: right;
+	margin-left: 30px;
+	word-spacing: 20px;
+	color: #222;
+}
+.detail-01 h2 {
+	font-family: 'rsulight';
+	font-size: 20px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 388px;
+	color: #000;
+}
+.room-pic1 {
+	width: 255px;
+	height: 633px;
+	float: left;
+	background-color: #000;
+}
+.room-pic1 img  {
+	width: 255px;
+	height: 633px;
+}
+.bedroom {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 255px;
+	height: 633px;
+    background: red;
+    overflow: hidden;
+    margin-top: 430px;
+    margin-left: 127px;
+}
+.bedroom .imgBx,
+.bedroom .details {
+    width: 255px;
+	height: 633px;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.bedroom .imgBx {
+    top: 0;
+    left: 0;
+}
+.bedroom:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.bedroom .imgBx img {
+    width: 255px;
+	height: 633px;
+}
+.bedroom .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.bedroom:hover .details {
+    top: 0;
+    left: 0%;
+}
+.bedroom .details h2 {
+	font-family: 'rsulight';
+	font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.bedroom .details p {
+	font-family: 'rsulight';
+	font-size: 18px;
+    margin: 20px 0 0;
+    color: #fff;
+}
+.room-pic2 {
+	width: 255px;
+	height: 608px;
+	float: left;
+	margin-top: 3px;
+	background-color: #000;
+}
+.room-pic2 img {
+	width: 255px;
+	height: 608px;
+	margin-top: -3px;
+}
+.bathroom {
+    position: absolute;
+    transform: translate(-50%,-50%);
+	width: 255px;
+	height: 608px;
+    background: #000;
+    overflow: hidden;
+    margin-top: 459px;
+    margin-left: 381px;
+}
+.bathroom .imgBx,
+.bathroom .details {
+	width: 255px;
+	height: 608px;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.bathroom .imgBx {
+    top: 0;
+    left: 0;
+}
+.bathroom:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.bathroom .imgBx img {
+	width: 255px;
+	height: 608px;
+}
+.bathroom .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.bathroom:hover .details {
+    top: 0;
+    left: 0%;
+}
+.bathroom .details h2 {
+	font-family: 'rsulight';
+	font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.bathroom .details p {
+	font-family: 'rsulight';
+	font-size: 18px;
+    margin: 20px 0 0;
+    color: #fff;
+}
+.room-pic3 {
+	width: 304px;
+	height: 576px;
+	float: left;
+	margin-top: 57px;
+	background-color: #000;
+}
+.room-pic3 img  {
+	width: 255px;
+	height: 576px;
+	margin-top: -57px;
+}
+.livingroom {
+    position: absolute;
+    transform: translate(-50%,-50%);
+	width: 255px;
+	height: 576px;
+    background: #000;
+    overflow: hidden;
+    margin-top: 495px;
+    margin-left: 636px;
+}
+.livingroom .imgBx,
+.livingroom .details {
+	width: 255px;
+	height: 576px;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.livingroom .imgBx {
+    top: 0;
+    left: 0;
+}
+.livingroom:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.livingroom .imgBx img {
+	width: 255px;
+	height: 576px;
+}
+.livingroom .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.livingroom:hover .details {
+    top: 0;
+    left: 0%;
+}
+.livingroom .details h2 {
+	font-family: 'rsulight';
+	font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.livingroom .details p {
+	font-family: 'rsulight';
+	font-size: 18px;
+    margin: 20px 0 0;
+    color: #fff;
+}
+.room-pic4 {
+	width: 255px;
+	height: 560px;
+	float: left;
+	margin-top: 95px;
+	background-color: #000;
+}
+.room-pic4 img  {
+    width: 300px;
+    height: 609px;
+    margin-top: -95px;
+    margin-left: -12px;
+}
+.kitchen {
+    position: absolute;
+    transform: translate(-50%,-50%);
+	width: 255px;
+	height: 576px;
+    background: #000;
+    overflow: hidden;
+    margin-top: 531px;
+    margin-left: 891px;
+}
+.kitchen .imgBx,
+.kitchen .details {
+	width: 255px;
+	height: 576px;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.kitchen .imgBx {
+    top: 0;
+    left: 0;
+}
+.kitchen:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.kitchen .imgBx img {
+	width: 255px;
+	height: 576px;
+}
+.kitchen .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.kitchen:hover .details {
+    top: 0;
+    left: 0%;
+}
+.kitchen .details h2 {
+	font-family: 'rsulight';
+	font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.kitchen .details p {
+	font-family: 'rsulight';
+	font-size: 18px;
+    margin: 20px 0 0;
+    color: #fff;
+}
+.detail-02 {
+	width: 1020px;
+	height: 820px;
+	margin: 100px 0 100px 3.75%;
+	position: relative;
+	float: left;
+}
+.detail-02 h1 {
+	font-family: 'rsuregular';
+	font-size: 60px;
+	float: left;
+	margin-left: 35px;
+	word-spacing: 20px;
+	color: #000;
+}
+.detail-02 h3 {
+	font-family: 'rsulight';
+	font-size: 20px;
+	float: left;
+	margin-top: 5px;
+    margin-left: 39px;
+    color: #000;
+}
+.room-pic8 {
+	width: 255px;
+	height: 633px;	
+	margin-top: -33px;
+	float: left;
+	background-color: #000;
+}
+.room-pic8 img {
+	width: 255px;
+	height: 633px;	
+	margin-top: 32px;
+}
+.building-3 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+	width: 255px;
+	height: 633px;	
+    overflow: hidden;
+    margin-top: 438px;
+    margin-left: 891px;
+}
+.building-3 .imgBx,
+.building-3 .details {
+	width: 255px;
+	height: 633px;	
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.building-3 .imgBx {
+    top: 0;
+    left: 0;
+}
+.building-3:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.building-3 .imgBx img {
+	width: 255px;
+	height: 633px;	
+}
+.building-3 .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.building-3:hover .details {
+    top: 0;
+    left: 0%;
+}
+.building-3 .details h2 {
+	font-family: 'rsulight';
+	font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.building-3 .details p {
+	font-family: 'rsulight';
+	font-size: 18px;
+    margin: 20px 0 0;
+    color: #fff;
+}
+.room-pic8 img:hover  {
+	width: 255px;
+	height: 633px;
+	opacity: 0.5;
+	color: #bbb;
+	transition: .5s ease;
+}
+.room-pic7 {
+    width: 257px;
+    height: 608px;
+	float: left;
+	margin-top: 20px;
+	background-color: #000;
+}
+.room-pic7 img {
+    width: 257px;
+    height: 608px;
+    margin-top: -20px;
+}
+.building-2 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 257px;
+    height: 608px;
+    overflow: hidden;
+    margin-top: 475px;
+    margin-left: 636px;
+}
+.building-2 .imgBx,
+.building-2 .details {
+    width: 257px;
+    height: 608px;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.building-2 .imgBx {
+    top: 0;
+    left: 0;
+}
+.building-2:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.building-2 .imgBx img {
+    width: 257px;
+    height: 608px;
+}
+.building-2 .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.building-2:hover .details {
+    top: 0;
+    left: 0%;
+}
+.building-2 .details h2 {
+	font-family: 'rsulight';
+	font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.building-2 .details p {
+	font-family: 'rsulight';
+	font-size: 18px;
+    margin: 20px 0 0;
+    color: #fff;
+}
+.room-pic6 {
+	width: 255px;
+	height: 576px;
+	float: left;
+	margin-top: 75px;
+	background-color: #000;
+}
+.room-pic6 img {
+	width: 255px;
+	height: 576px;
+	margin-top: -75px;
+}
+.building-1 {
+    position: absolute;
+    transform: translate(-50%,-50%);
+	width: 255px;
+	height: 576px;
+    overflow: hidden;
+    margin-top: 510px;
+    margin-left: 382px;
+}
+.building-1 .imgBx,
+.building-1 .details {
+	width: 255px;
+	height: 576px;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.building-1 .imgBx {
+    top: 0;
+    left: 0;
+}
+.building-1:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.building-1 .imgBx img {
+	width: 255px;
+	height: 576px;
+}
+.building-1 .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.building-1:hover .details {
+    top: 0;
+    left: 0%;
+}
+.building-1 .details h2 {
+	font-family: 'rsulight';
+	font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.building-1 .details p {
+	font-family: 'rsulight';
+	font-size: 18px;
+    margin: 20px 0 0;
+    color: #fff;
+}
+.room-pic5 {
+	width: 255px;
+	height: 560px;
+	float: left;
+	margin-top: 115px;
+	background-color: #000;
+}
+.room-pic5 img {
+    width: 255px;
+    height: 561px;
+    margin-top: -116px;
+}
+.stair {
+    position: absolute;
+    transform: translate(-50%,-50%);
+	width: 255px;
+	height: 560px;
+    background: red;
+    overflow: hidden;
+    margin-top: 540px;
+    margin-left: 129px;
+}
+.stair .imgBx,
+.stair .details {
+	width: 255px;
+	height: 560px;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.stair .imgBx {
+    top: 0;
+    left: 0;
+}
+.stair:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.stair .imgBx img {
+	width: 255px;
+	height: 560px;
+}
+.stair .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+}
+.stair:hover .details {
+    top: 0;
+    left: 0%;
+}
+.stair .details h2 {
+	font-family: 'rsulight';
+	font-size: 28px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.stair .details p {
+	font-family: 'rsulight';
+	font-size: 18px;
+    margin: 20px 0 0;
+    color: #fff;
+}
+.choose-your-room {
+	width: 1020px;
+	height: 500px;
+	float: left;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.choose-your-room h1 {
+	font-family: 'rsuregular';
+	font-size: 48px;
+	text-align: right;
+	color: #000;
+}
+.pinkroom {
+	width: 600px;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 140px;
+}
+.color {
+	width: 100px;
+	height: 200px;
+	float: right;
+	margin-top: -325px;
+}
+.color img {
+	width: 100px;
+	height: 200px;
+}
+footer .footer {
+    width: 100%;
+    height: 380px;
+    background-color: #362f2d;
+    margin-top: 4000px;
+    text-align: center;
+}
+.follow-nous {
+   width: 140px;
+    height: 100px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 971px;
+    position: relative;
+}
+.follow-nous h1 {
+    font-family: 'queen_of_clubsregular';
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    word-spacing: 10px;
+    padding-bottom: 15px;
+}
+.fa {
+    font-size: 35px;
+    float: left;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+}
+.fa-facebook-square:before {
+    content: "\f082";
+    float: left;
+    margin-left: 9px;
+    word-spacing: 5px;
+}
+.fa-instagram:before {
+    content: "\f16d";
+    margin-left: 15px;
+}
+.fa-twitter-square:before {
+    content: "\f081";
+    margin-left: 15px;
+}
+.subscribe-us {
+    width: 360px;
+    height: 100px;
+    float: left;
+    margin-top: -340px;
+    margin-left: 145px
+}
+.subscribe-us h1 {
+    font-family: 'queen_of_clubsregular';
+    font-size: 36px;
+    float: left;
+    margin-left: 15px;
+    color: #fff;
+}
+.subscribe-us h2 {
+    font-family: 'rsulight';
+    font-size: 20px;
+    float: left;
+    margin-left: 10px;
+    color: #fff;
+    margin-top: 13px;
+}
+input {
+	font-family: 'queen_of_clubsregular';
+	font-size: 18px;
+    margin-left: 30px;
+    margin-top: 15px;
+    width: 224px;
+    height: 31px;
+    cursor: text;
+}
+.send {
+    width: 50px;
+    height: 31px;
+    background-color: #c69c6d;
+    float: left;
+    margin-top: -31px;
+    margin-left: 254px;
+}
+.send h1 {
+    font-family: 'queen_of_clubsregular';
+    font-size: 22px;
+    float: left;
+    letter-spacing: 2px;
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.address {
+     width: 280px;
+    height: 226px;
+    float: left;
+    margin-top: -69px;
+    margin-left: 465px;
+}
+.address h1 {
+    font-family: 'rsulight';
+    font-size: 18px;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 20px;
+}
